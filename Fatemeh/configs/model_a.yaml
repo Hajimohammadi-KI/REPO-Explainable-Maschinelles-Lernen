@@ -1,0 +1,26 @@
+# Model A = Linear Probing
+# Train only the classifier head, keep the backbone frozen.
+
+dataset_root: ""                       # Leave empty to auto-detect (recommended)
+dataset_folder_name: "ImageNetSubset"  # Name of the dataset folder inside dataset_root
+train_subdir: "train"                  # Name of the training subdirectory
+val_subdir: "val"                      # Name of the validation subdirectory  
+
+backbone: "resnet18"                   # resnet18 or resnet50
+pretrained: true                       # Use pretrained weights
+freeze_backbone: true                  # Freeze backbone during training
+
+image_size: 224                        # Input image size
+batch_size: 64                        # Batch size
+epochs: 10                            # Number of training epochs
+
+learning_rate: 0.001                 # Initial learning rate
+weight_decay: 0.0001                 # Weight decay
+optimizer: "adam"                    # adam or sgd
+
+seed: 42                           # Random seed for reproducibility
+num_workers: 4                     # Number of data loading workers
+device: "auto"                     # auto | cpu | cuda
+
+output_dir: "outputs/model_a"          # Directory to save outputs
+save_best_only: true                  # Save only the best model based on validation accuracy
