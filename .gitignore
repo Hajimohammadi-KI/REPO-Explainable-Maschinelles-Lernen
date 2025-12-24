@@ -1,15 +1,7 @@
-# Jupyter
-.ipynb_checkpoints/
+﻿.ipynb_checkpoints/
 **/.ipynb_checkpoints/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Virtual environments
 .venv/
 venv/
-
-# OS / editor junk
-.DS_Store
 Thumbs.db
