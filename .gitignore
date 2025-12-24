@@ -1,0 +1,18 @@
+﻿.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+Thumbs.db
+
+
+@"
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.history/
+Untitled.ipynb
+"@ | Out-File -Append -Encoding utf8 .gitignore
+
+git add .gitignore
+git commit -m "Ignore Jupyter checkpoints and history"
