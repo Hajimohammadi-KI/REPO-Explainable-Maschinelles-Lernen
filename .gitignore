@@ -19,3 +19,5 @@ git commit -m "Ignore Jupyter checkpoints and history"
 
 # VS Code history (if you don't need it)
 .history/
+Fatemeh - Files that the project does not directly need/
+
