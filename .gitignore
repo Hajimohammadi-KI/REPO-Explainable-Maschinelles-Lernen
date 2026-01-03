@@ -16,3 +16,4 @@ Untitled.ipynb
 
 git add .gitignore
 git commit -m "Ignore Jupyter checkpoints and history"
+.DS_Store
