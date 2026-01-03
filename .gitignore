@@ -1,0 +1,25 @@
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+Untitled.ipynb
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# VS Code
+.history/
+
+# OS junk
+Thumbs.db
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Other
+Fatemeh - Files that the project does not directly need/
